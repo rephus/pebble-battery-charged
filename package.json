@@ -1,0 +1,35 @@
+{
+  "name": "battery-charged",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app", "battery", "utility"],
+  "private": false,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Battery Charged",
+    "uuid": "f22c1631-458e-416a-a4fb-3b484543c32e",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "MESSAGE_KEY_ALERT"
+    ],
+    "resources": {
+      "media": []
+    },
+    "capabilities": [
+      "health",
+      "configurable"
+    ]
+  }
+}
